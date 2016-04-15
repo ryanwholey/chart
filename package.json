@@ -1,0 +1,32 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors",
+    "watch": "webpack --watch --progress --colors",
+    "dev": "webpack-dev-server --port 4000 --inline --progress --colors --hot"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.7.4",
+    "c3": "^0.4.11-rc4",
+    "d3": "^3.5.16",
+    "express": "^4.13.4",
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
