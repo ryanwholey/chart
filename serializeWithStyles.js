@@ -5,7 +5,7 @@ export default function() {
     // Mapping between tag names and css default values lookup tables. This allows to exclude default values in the result.
     const defaultStylesByTagName = {};
 
-    const range = (num, cb) => new Array(numzz).fill(0).forEach(cb);
+    const range = (num, cb) => new Array(num).fill(0).forEach(cb);
 
     // Styles inherited from style sheets will not be rendered for elements with these tag names
     const noStyleTags = {"BASE":true,"HEAD":true,"HTML":true,"META":true,"NOFRAME":true,"NOSCRIPT":true,"PARAM":true,"SCRIPT":true,"STYLE":true,"TITLE":true};
